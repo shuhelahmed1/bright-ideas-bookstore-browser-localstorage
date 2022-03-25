@@ -1,0 +1,30 @@
+body{
+    font-family: 'Ramaraja', serif;
+}
+
+.bookstore-button{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 3px 8px;
+    transition: all .5s ease;
+    font-size: 20px;
+}
+
+.bookstore-button:hover{
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+#books{
+    width: 75%;
+    text-align: left;
+    margin: 30px auto 0;
+
+}
+
+#books li{
+    font-size: 24px;
+}
